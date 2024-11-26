@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register here!</title>
+    <link rel="stylesheet" href="app.css">
+</head>
+
+<body>
+    <h1>Race registration!</h1>
+
+    <form action="">
+        <div>
+            <label for="first">First Name</label>
+            <input type="text" name="firstname" id="first" placeholder="write here" required>
+            <label for="last">Last Name</label>
+            <input type="text" name="lastname" id="last" placeholder="write here" required>
+        </div>
+
+        <p>
+            Select a Race:
+        </p>
+
+        <div>
+            <input type="radio" name="race" id="funrun" value="funrun">
+            <label for="funrun">Fun Run 5k</label><br>
+            <input type="radio" name="race" id="half" value="half">
+            <label for="half">Half Marathon</label><br>
+            <input type="radio" name="race" id="full" value="full">
+            <label for="full">Full Marthon</label>
+        </div>
+
+        <div>
+            <label for="email">E-mail</label>
+            <input type="email" name="email" id="email" required>
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password" required>
+        </div>
+
+        <div>
+            <label for="division">Select an age group</label>
+            <select id="division" name="division">
+                <option value="kids">-18</option>
+                <option value="young" selected>18-40</option>
+                <option value="adults">40+</option>
+            </select>
+        </div>
+
+        <div>
+            <button type="submit">Register!</button> <br>
+            <button id="newsletter">Or sign up for our newletter?</button>
+        </div>
+    </form>
+
+    <h2>Vad du bör tänka på inför racet</h2>
+
+    <div>
+        <h3>Jämnt tempo är nyckeln <span class="tag">pace</span></h3>
+
+        <button>Vill du veta mer?</button>
+
+        <p>Smartare farthållning är en av anledningarna till senaste decenniernas allt bättre <a
+                href="https://www.idrottsforskning.se/lagg-upp-loppet-som-maratonproffsen-och-sla-ditt-personbasta/">världsrekord</a>.
+            Tidigare
+            sprang man maraton med en positiv split-strategi. Det innebar att löpare skulle starta snabbt och gradvis
+            sakta ner under andra halvan av loppet.
+
+            I dag vet de flesta professionella maratonlöpare att det är bättre att löpa i samma tempo genom hela loppet,
+            eller springa lite snabbare under den andra halvan (negativ split-strategi). Att hitta rätt tempo är extremt
+            viktigt, och kan betyda skillnaden mellan att placera sig på pallen eller långt ned i resultatlistan.
+
+            Men även om du inte planerar att försöka slå världsrekordet, kan rätt strategi hjälpa dig att slå ditt
+            personbästa i nästa lopp.</p>
+    </div>
+
+    <div>
+        <h3>Att sätta en strategi <span class="tag">strategy</span></h3>
+        <button>Vill du veta mer?</button>
+        <p>De flesta löpare tenderar att starta för snabbt, vilket innebär att de tappar fart senare i loppet. Att gå ut
+            för hårt är en dålig strategi, eftersom det förbränner kroppens lättillgängliga bränslereserver. Det innebär
+            att du snabbt får slut på energi och har lite kvar till slutet av loppet när du behöver det som mest.
+
+            Det är därför löpare som är mer erfarna och snabbare startar sitt lopp i ett mer hållbart tempo. Att starta
+            långsammare minskar risken för att känna sig utmattad och “gå in i väggen” i de senare delarna av
+            maratonloppet. Kanske har du då lite energi kvar under de avgörande sista milen.</p>
+    </div>
+
+    <div>
+        <h3>Planera farten <span class="tag">plan</span></h3>
+        <button>Vill du veta mer?</button>
+        <p>Det är väldigt lätt att springa för fort i tidiga skeden av ett lopp. Planera därför din farthållning innan.
+            Använd dina träningstider (eller tider från tidigare lopp) för att få en ungefärlig uppfattning om vilket
+            tempo du kan hålla. En GPS-klocka kan också hjälpa dig att hålla koll på tempot under ett maraton eller på
+            träning.
+
+            Din löpning ska kännas lätt i början. Om du lyckas hålla en fullständig konversation under de första
+            kilometrarna, är ditt tempo förmodligen bra. Försök också att inte ryckas med av de löpare som håller ett
+            för högt tempo, eller bli för upphetsad av publiken i början av loppet.
+
+            Håll dig lugn och undvik att vara alltför självsäker, eller ta stora, oplanerade fartrisker. Det kan medföra
+            betydande tempoförluster i slutet av loppet. Att vara medveten om tempot är viktigast tidigt i loppet. När
+            du sprungit tre mil bör du fokusera på att bara avsluta så gott du kan.</p>
+    </div>
+
+    <footer>
+        <nav>
+            <ul>
+                <li>
+                    <a
+                        href="https://www.idrottsforskning.se/lagg-upp-loppet-som-maratonproffsen-och-sla-ditt-personbasta/">Läs
+                        mer om vår verksamhet</a>
+                </li>
+                <li>
+                    <a
+                        href="https://www.idrottsforskning.se/lagg-upp-loppet-som-maratonproffsen-och-sla-ditt-personbasta/">Här
+                        finns vi</a>
+                </li>
+                <li>
+                    <a
+                        href="https://www.idrottsforskning.se/lagg-upp-loppet-som-maratonproffsen-och-sla-ditt-personbasta/">Vill
+                        du bli en del av oss?</a>
+                </li>
+            </ul>
+        </nav>
+        <a href="https://www.idrottsforskning.se/redaktionen/tillganglighet/">Content is available under these
+            licenses.</a>
+    </footer>
+</body>
+
+</html>
